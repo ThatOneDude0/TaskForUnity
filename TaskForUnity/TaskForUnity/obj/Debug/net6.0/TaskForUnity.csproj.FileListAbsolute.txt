@@ -1,0 +1,15 @@
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\bin\Debug\net6.0\TaskForUnity.exe
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\bin\Debug\net6.0\TaskForUnity.deps.json
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\bin\Debug\net6.0\TaskForUnity.runtimeconfig.json
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\bin\Debug\net6.0\TaskForUnity.dll
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\bin\Debug\net6.0\TaskForUnity.pdb
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.csproj.AssemblyReference.cache
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.AssemblyInfoInputs.cache
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.AssemblyInfo.cs
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.dll
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\refint\TaskForUnity.dll
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.pdb
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\TaskForUnity.genruntimeconfig.cache
+C:\Users\user1\source\repos\TaskForUnity\TaskForUnity\obj\Debug\net6.0\ref\TaskForUnity.dll
