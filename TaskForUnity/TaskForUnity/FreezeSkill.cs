@@ -7,33 +7,37 @@ using TaskForUnity.Abstruct;
 
 namespace TaskForUnity
 {
-    public class FreezeSkill : ISkill
+    public class FreezeSkill : IFreezeSkill
     {
         public string Name { get; }
         public int Damage { get; }
         public int RadiusDamage { get; }
         public int RechargeTime { get; }
-        public FrostColor IceColor { get; }
+        public ILogger Logger { get; }
+        public string Color { get; }
 
-        public FreezeSkill(string name, int damage, int radiusDamage, int rechargeTime, FrostColor iceColor)
+        private string _message;
+
+        public FreezeSkill(string name, int damage, int radiusDamage, int rechargeTime, ILogger logger, string color)
         {
-            Name= name;
-            Damage= damage;
-            RadiusDamage= radiusDamage;
-            RechargeTime= rechargeTime;
-            IceColor= iceColor;
+            Name = name;
+            Damage = damage;
+            RadiusDamage = radiusDamage;
+            RechargeTime = rechargeTime;
+            Logger = logger;
+            Color = color;
         }
 
         public int ExploitSkill()
         {
+            PrintMessage(_message);
             return Damage;
         }
 
-        public enum FrostColor
+        public void PrintMessage(string printMessage)
         {
-            Blue,
-            Green,
-            red,
+            printMessage = "";
+            _message = printMessage;
         }
     }
 }

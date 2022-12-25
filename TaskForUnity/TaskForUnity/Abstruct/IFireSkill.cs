@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TaskForUnity.Abstruct
 {
-    public interface ILogger
+    public interface IFireSkill : ISkill
     {
-        public void PrintMessage(string printMessage);
+        public int BurnTIme { get; }
     }
 }

@@ -7,11 +7,13 @@ using TaskForUnity.Abstruct;
 
 namespace TaskForUnity
 {
-    public abstract class Hero : IHero
+    public abstract class Hero : IHero, ILogger
     {
         public string Name { get; }
 
         private readonly IList<ISkill> _skills;
+
+        private string _message;
 
         protected Hero(string name, IList<ISkill> skills)
         {
@@ -27,7 +29,13 @@ namespace TaskForUnity
 
         public void TakeDamage(int damage, IHero hero)
         {
-            throw new NotImplementedException();
+            PrintMessage(_message);
+        }
+
+        public void PrintMessage(string printMessage)
+        {
+            printMessage = "";
+            _message = printMessage;
         }
     }
 }

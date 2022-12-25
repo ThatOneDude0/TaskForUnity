@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace TaskForUnity.Abstruct
 {
-    public interface ILogger
+    public interface IFreezeSkill : ISkill
     {
-        public void PrintMessage(string printMessage);
+        public string Color { get;}
+        public int RechargeTime { get;}
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskForUnity.Abstruct
 {
-    public interface ISkill
+    public interface ISkill : ILogger
     {
         public string Name { get; }
 
